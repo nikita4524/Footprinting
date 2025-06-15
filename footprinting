@@ -1,0 +1,728 @@
+┌──(kali㉿kali)-[~]
+└─$ nmap --version
+
+Nmap version 7.95 ( https://nmap.org )
+Platform: x86_64-pc-linux-gnu
+Compiled with: liblua-5.4.7 openssl-3.5.0 libssh2-1.11.1 libz-1.3.1 libpcre2-10.45 libpcap-1.10.5 nmap-libdnet-1.12 ipv6
+Compiled without:
+Available nsock engines: epoll poll select
+                                                                                                         
+┌──(kali㉿kali)-[~]
+└─$ nmap -sn 192.168.1.0/24
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-15 03:49 EDT
+Nmap scan report for 192.168.1.0
+Host is up (0.00029s latency).
+Nmap scan report for 192.168.1.1
+Host is up (0.00074s latency).
+Nmap scan report for 192.168.1.2
+Host is up (0.00062s latency).
+Nmap scan report for 192.168.1.3
+Host is up (0.00039s latency).
+Nmap scan report for 192.168.1.4
+Host is up (0.00026s latency).
+Nmap scan report for 192.168.1.5
+Host is up (0.00028s latency).
+Nmap scan report for 192.168.1.6
+Host is up (0.00046s latency).
+Nmap scan report for 192.168.1.7
+Host is up (0.00023s latency).
+Nmap scan report for 192.168.1.8
+Host is up (0.00053s latency).
+Nmap scan report for 192.168.1.9
+Host is up (0.00037s latency).
+Nmap scan report for 192.168.1.10
+Host is up (0.00045s latency).
+Nmap scan report for 192.168.1.11
+Host is up (0.00081s latency).
+Nmap scan report for 192.168.1.12
+Host is up (0.00064s latency).
+Nmap scan report for 192.168.1.13
+Host is up (0.00024s latency).
+Nmap scan report for 192.168.1.14
+Host is up (0.00037s latency).
+Nmap scan report for 192.168.1.15
+Host is up (0.00024s latency).
+Nmap scan report for 192.168.1.16
+Host is up (0.00045s latency).
+Nmap scan report for 192.168.1.17
+Host is up (0.00041s latency).
+Nmap scan report for 192.168.1.18
+Host is up (0.00060s latency).
+Nmap scan report for 192.168.1.19
+Host is up (0.00082s latency).
+Nmap scan report for 192.168.1.20
+Host is up (0.00050s latency).
+Nmap scan report for 192.168.1.21
+Host is up (0.00058s latency).
+Nmap scan report for 192.168.1.22
+Host is up (0.00035s latency).
+Nmap scan report for 192.168.1.23
+Host is up (0.00015s latency).
+Nmap scan report for 192.168.1.24
+Host is up (0.00024s latency).
+Nmap scan report for 192.168.1.25
+Host is up (0.00024s latency).
+Nmap scan report for 192.168.1.26
+Host is up (0.00028s latency).
+Nmap scan report for 192.168.1.27
+Host is up (0.00027s latency).
+Nmap scan report for 192.168.1.28
+Host is up (0.00050s latency).
+Nmap scan report for 192.168.1.29
+Host is up (0.00033s latency).
+Nmap scan report for 192.168.1.30
+Host is up (0.00048s latency).
+Nmap scan report for 192.168.1.31
+Host is up (0.00036s latency).
+Nmap scan report for 192.168.1.32
+Host is up (0.00011s latency).
+Nmap scan report for 192.168.1.33
+Host is up (0.00050s latency).
+Nmap scan report for 192.168.1.34
+Host is up (0.00022s latency).
+Nmap scan report for 192.168.1.35
+Host is up (0.00023s latency).
+Nmap scan report for 192.168.1.36
+Host is up (0.00011s latency).
+Nmap scan report for 192.168.1.37
+Host is up (0.00059s latency).
+Nmap scan report for 192.168.1.38
+Host is up (0.00044s latency).
+Nmap scan report for 192.168.1.39
+Host is up (0.00034s latency).
+Nmap scan report for 192.168.1.40
+Host is up (0.00022s latency).
+Nmap scan report for 192.168.1.41
+Host is up (0.00041s latency).
+Nmap scan report for 192.168.1.42
+Host is up (0.00029s latency).
+Nmap scan report for 192.168.1.43
+Host is up (0.00047s latency).
+Nmap scan report for 192.168.1.44
+Host is up (0.00023s latency).
+Nmap scan report for 192.168.1.45
+Host is up (0.00046s latency).
+Nmap scan report for 192.168.1.46
+Host is up (0.00077s latency).
+Nmap scan report for 192.168.1.47
+Host is up (0.00059s latency).
+Nmap scan report for 192.168.1.48
+Host is up (0.00036s latency).
+Nmap scan report for 192.168.1.49
+Host is up (0.00033s latency).
+Nmap scan report for 192.168.1.50
+Host is up (0.00051s latency).
+Nmap scan report for 192.168.1.51
+Host is up (0.00024s latency).
+Nmap scan report for 192.168.1.52
+Host is up (0.00082s latency).
+Nmap scan report for 192.168.1.53
+Host is up (0.00064s latency).
+Nmap scan report for 192.168.1.54
+Host is up (0.00077s latency).
+Nmap scan report for 192.168.1.55
+Host is up (0.00015s latency).
+Nmap scan report for 192.168.1.56
+Host is up (0.00033s latency).
+Nmap scan report for 192.168.1.57
+Host is up (0.00042s latency).
+Nmap scan report for 192.168.1.58
+Host is up (0.00042s latency).
+Nmap scan report for 192.168.1.59
+Host is up (0.00027s latency).
+Nmap scan report for 192.168.1.60
+Host is up (0.00032s latency).
+Nmap scan report for 192.168.1.61
+Host is up (0.00081s latency).
+Nmap scan report for 192.168.1.62
+Host is up (0.00017s latency).
+Nmap scan report for 192.168.1.63
+Host is up (0.00030s latency).
+Nmap scan report for 192.168.1.64
+Host is up (0.00079s latency).
+Nmap scan report for 192.168.1.65
+Host is up (0.00059s latency).
+Nmap scan report for 192.168.1.66
+Host is up (0.00026s latency).
+Nmap scan report for 192.168.1.67
+Host is up (0.00041s latency).
+Nmap scan report for 192.168.1.68
+Host is up (0.00080s latency).
+Nmap scan report for 192.168.1.69
+Host is up (0.00066s latency).
+Nmap scan report for 192.168.1.70
+Host is up (0.00052s latency).
+Nmap scan report for 192.168.1.71
+Host is up (0.00034s latency).
+Nmap scan report for 192.168.1.72
+Host is up (0.00050s latency).
+Nmap scan report for 192.168.1.73
+Host is up (0.00023s latency).
+Nmap scan report for 192.168.1.74
+Host is up (0.00011s latency).
+Nmap scan report for 192.168.1.75
+Host is up (0.00023s latency).
+Nmap scan report for 192.168.1.76
+Host is up (0.0014s latency).
+Nmap scan report for 192.168.1.77
+Host is up (0.00024s latency).
+Nmap scan report for 192.168.1.78
+Host is up (0.00040s latency).
+Nmap scan report for 192.168.1.79
+Host is up (0.00039s latency).
+Nmap scan report for 192.168.1.80
+Host is up (0.00026s latency).
+Nmap scan report for 192.168.1.81
+Host is up (0.00025s latency).
+Nmap scan report for 192.168.1.82
+Host is up (0.00038s latency).
+Nmap scan report for 192.168.1.83
+Host is up (0.00012s latency).
+Nmap scan report for 192.168.1.84
+Host is up (0.00093s latency).
+Nmap scan report for 192.168.1.85
+Host is up (0.00081s latency).
+Nmap scan report for 192.168.1.86
+Host is up (0.00083s latency).
+Nmap scan report for 192.168.1.87
+Host is up (0.00098s latency).
+Nmap scan report for 192.168.1.88
+Host is up (0.00039s latency).
+Nmap scan report for 192.168.1.89
+Host is up (0.00029s latency).
+Nmap scan report for 192.168.1.90
+Host is up (0.00012s latency).
+Nmap scan report for 192.168.1.91
+Host is up (0.00011s latency).
+Nmap scan report for 192.168.1.92
+Host is up (0.00050s latency).
+Nmap scan report for 192.168.1.93
+Host is up (0.00025s latency).
+Nmap scan report for 192.168.1.94
+Host is up (0.00013s latency).
+Nmap scan report for 192.168.1.95
+Host is up (0.00025s latency).
+Nmap scan report for 192.168.1.96
+Host is up (0.00012s latency).
+Nmap scan report for 192.168.1.97
+Host is up (0.00040s latency).
+Nmap scan report for 192.168.1.98
+Host is up (0.00035s latency).
+Nmap scan report for 192.168.1.99
+Host is up (0.00011s latency).
+Nmap scan report for 192.168.1.100
+Host is up (0.00024s latency).
+Nmap scan report for 192.168.1.101
+Host is up (0.00026s latency).
+Nmap scan report for 192.168.1.102
+Host is up (0.00063s latency).
+Nmap scan report for 192.168.1.103
+Host is up (0.00035s latency).
+Nmap scan report for 192.168.1.104
+Host is up (0.00053s latency).
+Nmap scan report for 192.168.1.105
+Host is up (0.00039s latency).
+Nmap scan report for 192.168.1.106
+Host is up (0.00037s latency).
+Nmap scan report for 192.168.1.107
+Host is up (0.00012s latency).
+Nmap scan report for 192.168.1.108
+Host is up (0.00024s latency).
+Nmap scan report for 192.168.1.109
+Host is up (0.00023s latency).
+Nmap scan report for 192.168.1.110
+Host is up (0.00037s latency).
+Nmap scan report for 192.168.1.111
+Host is up (0.00024s latency).
+Nmap scan report for 192.168.1.112
+Host is up (0.00044s latency).
+Nmap scan report for 192.168.1.113
+Host is up (0.00085s latency).
+Nmap scan report for 192.168.1.114
+Host is up (0.00072s latency).
+Nmap scan report for 192.168.1.115
+Host is up (0.00028s latency).
+Nmap scan report for 192.168.1.116
+Host is up (0.00059s latency).
+Nmap scan report for 192.168.1.117
+Host is up (0.00037s latency).
+Nmap scan report for 192.168.1.118
+Host is up (0.00011s latency).
+Nmap scan report for 192.168.1.119
+Host is up (0.00023s latency).
+Nmap scan report for 192.168.1.120
+Host is up (0.00025s latency).
+Nmap scan report for 192.168.1.121
+Host is up (0.00055s latency).
+Nmap scan report for 192.168.1.122
+Host is up (0.00042s latency).
+Nmap scan report for 192.168.1.123
+Host is up (0.00022s latency).
+Nmap scan report for 192.168.1.124
+Host is up (0.00011s latency).
+Nmap scan report for 192.168.1.125
+Host is up (0.00036s latency).
+Nmap scan report for 192.168.1.126
+Host is up (0.00012s latency).
+Nmap scan report for 192.168.1.127
+Host is up (0.00022s latency).
+Nmap scan report for 192.168.1.128
+Host is up (0.00025s latency).
+Nmap scan report for 192.168.1.129
+Host is up (0.00013s latency).
+Nmap scan report for 192.168.1.130
+Host is up (0.00038s latency).
+Nmap scan report for 192.168.1.131
+Host is up (0.00025s latency).
+Nmap scan report for 192.168.1.132
+Host is up (0.00029s latency).
+Nmap scan report for 192.168.1.133
+Host is up (0.00036s latency).
+Nmap scan report for 192.168.1.134
+Host is up (0.00051s latency).
+Nmap scan report for 192.168.1.135
+Host is up (0.00048s latency).
+Nmap scan report for 192.168.1.136
+Host is up (0.00035s latency).
+Nmap scan report for 192.168.1.137
+Host is up (0.00022s latency).
+Nmap scan report for 192.168.1.138
+Host is up (0.00011s latency).
+Nmap scan report for 192.168.1.139
+Host is up (0.00088s latency).
+Nmap scan report for 192.168.1.140
+Host is up (0.00026s latency).
+Nmap scan report for 192.168.1.141
+Host is up (0.00028s latency).
+Nmap scan report for 192.168.1.142
+Host is up (0.00035s latency).
+Nmap scan report for 192.168.1.143
+Host is up (0.00018s latency).
+Nmap scan report for 192.168.1.144
+Host is up (0.00022s latency).
+Nmap scan report for 192.168.1.145
+Host is up (0.00081s latency).
+Nmap scan report for 192.168.1.146
+Host is up (0.00060s latency).
+Nmap scan report for 192.168.1.147
+Host is up (0.00048s latency).
+Nmap scan report for 192.168.1.148
+Host is up (0.00035s latency).
+Nmap scan report for 192.168.1.149
+Host is up (0.00049s latency).
+Nmap scan report for 192.168.1.150
+Host is up (0.00037s latency).
+Nmap scan report for 192.168.1.151
+Host is up (0.00055s latency).
+Nmap scan report for 192.168.1.152
+Host is up (0.00039s latency).
+Nmap scan report for 192.168.1.153
+Host is up (0.00035s latency).
+Nmap scan report for 192.168.1.154
+Host is up (0.00048s latency).
+Nmap scan report for 192.168.1.155
+Host is up (0.00035s latency).
+Nmap scan report for 192.168.1.156
+Host is up (0.00023s latency).
+Nmap scan report for 192.168.1.157
+Host is up (0.00061s latency).
+Nmap scan report for 192.168.1.158
+Host is up (0.00047s latency).
+Nmap scan report for 192.168.1.159
+Host is up (0.0015s latency).
+Nmap scan report for 192.168.1.160
+Host is up (0.00024s latency).
+Nmap scan report for 192.168.1.161
+Host is up (0.00012s latency).
+Nmap scan report for 192.168.1.162
+Host is up (0.0017s latency).
+Nmap scan report for 192.168.1.163
+Host is up (0.0016s latency).
+Nmap scan report for 192.168.1.164
+Host is up (0.00023s latency).
+Nmap scan report for 192.168.1.165
+Host is up (0.00026s latency).
+Nmap scan report for 192.168.1.166
+Host is up (0.0011s latency).
+Nmap scan report for 192.168.1.167
+Host is up (0.00051s latency).
+Nmap scan report for 192.168.1.168
+Host is up (0.00044s latency).
+Nmap scan report for 192.168.1.169
+Host is up (0.00030s latency).
+Nmap scan report for 192.168.1.170
+Host is up (0.00027s latency).
+Nmap scan report for 192.168.1.171
+Host is up (0.00042s latency).
+Nmap scan report for 192.168.1.172
+Host is up (0.00024s latency).
+Nmap scan report for 192.168.1.173
+Host is up (0.00011s latency).
+Nmap scan report for 192.168.1.174
+Host is up (0.00050s latency).
+Nmap scan report for 192.168.1.175
+Host is up (0.00038s latency).
+Nmap scan report for 192.168.1.176
+Host is up (0.00085s latency).
+Nmap scan report for 192.168.1.177
+Host is up (0.00069s latency).
+Nmap scan report for 192.168.1.178
+Host is up (0.0011s latency).
+Nmap scan report for 192.168.1.179
+Host is up (0.0011s latency).
+Nmap scan report for 192.168.1.180
+Host is up (0.00099s latency).
+Nmap scan report for 192.168.1.181
+Host is up (0.00079s latency).
+Nmap scan report for 192.168.1.182
+Host is up (0.00023s latency).
+Nmap scan report for 192.168.1.183
+Host is up (0.00051s latency).
+Nmap scan report for 192.168.1.184
+Host is up (0.00038s latency).
+Nmap scan report for 192.168.1.185
+Host is up (0.00035s latency).
+Nmap scan report for 192.168.1.186
+Host is up (0.00042s latency).
+Nmap scan report for 192.168.1.187
+Host is up (0.00074s latency).
+Nmap scan report for 192.168.1.188
+Host is up (0.00048s latency).
+Nmap scan report for 192.168.1.189
+Host is up (0.00014s latency).
+Nmap scan report for 192.168.1.190
+Host is up (0.00032s latency).
+Nmap scan report for 192.168.1.191
+Host is up (0.00036s latency).
+Nmap scan report for 192.168.1.192
+Host is up (0.00023s latency).
+Nmap scan report for 192.168.1.193
+Host is up (0.00045s latency).
+Nmap scan report for 192.168.1.194
+Host is up (0.00057s latency).
+Nmap scan report for 192.168.1.195
+Host is up (0.00049s latency).
+Nmap scan report for 192.168.1.196
+Host is up (0.00071s latency).
+Nmap scan report for 192.168.1.197
+Host is up (0.00047s latency).
+Nmap scan report for 192.168.1.198
+Host is up (0.00036s latency).
+Nmap scan report for 192.168.1.199
+Host is up (0.00062s latency).
+Nmap scan report for 192.168.1.200
+Host is up (0.00031s latency).
+Nmap scan report for 192.168.1.201
+Host is up (0.00050s latency).
+Nmap scan report for 192.168.1.202
+Host is up (0.00071s latency).
+Nmap scan report for 192.168.1.203
+Host is up (0.00067s latency).
+Nmap scan report for 192.168.1.204
+Host is up (0.00054s latency).
+Nmap scan report for 192.168.1.205
+Host is up (0.00072s latency).
+Nmap scan report for 192.168.1.206
+Host is up (0.00041s latency).
+Nmap scan report for 192.168.1.207
+Host is up (0.00028s latency).
+Nmap scan report for 192.168.1.208
+Host is up (0.00027s latency).
+Nmap scan report for 192.168.1.209
+Host is up (0.00071s latency).
+Nmap scan report for 192.168.1.210
+Host is up (0.00048s latency).
+Nmap scan report for 192.168.1.211
+Host is up (0.00041s latency).
+Nmap scan report for 192.168.1.212
+Host is up (0.00011s latency).
+Nmap scan report for 192.168.1.213
+Host is up (0.00030s latency).
+Nmap scan report for 192.168.1.214
+Host is up (0.00076s latency).
+Nmap scan report for 192.168.1.215
+Host is up (0.00055s latency).
+Nmap scan report for 192.168.1.216
+Host is up (0.00044s latency).
+Nmap scan report for 192.168.1.217
+Host is up (0.00087s latency).
+Nmap scan report for 192.168.1.218
+Host is up (0.00074s latency).
+Nmap scan report for 192.168.1.219
+Host is up (0.00045s latency).
+Nmap scan report for 192.168.1.220
+Host is up (0.0011s latency).
+Nmap scan report for 192.168.1.221
+Host is up (0.00046s latency).
+Nmap scan report for 192.168.1.222
+Host is up (0.00031s latency).
+Nmap scan report for 192.168.1.223
+Host is up (0.00048s latency).
+Nmap scan report for 192.168.1.224
+Host is up (0.00013s latency).
+Nmap scan report for 192.168.1.225
+Host is up (0.00035s latency).
+Nmap scan report for 192.168.1.226
+Host is up (0.0016s latency).
+Nmap scan report for 192.168.1.227
+Host is up (0.00027s latency).
+Nmap scan report for 192.168.1.228
+Host is up (0.00039s latency).
+Nmap scan report for 192.168.1.229
+Host is up (0.00019s latency).
+Nmap scan report for 192.168.1.230
+Host is up (0.00083s latency).
+Nmap scan report for 192.168.1.231
+Host is up (0.00063s latency).
+Nmap scan report for 192.168.1.232
+Host is up (0.00056s latency).
+Nmap scan report for 192.168.1.233
+Host is up (0.00041s latency).
+Nmap scan report for 192.168.1.234
+Host is up (0.00028s latency).
+Nmap scan report for 192.168.1.235
+Host is up (0.00023s latency).
+Nmap scan report for 192.168.1.236
+Host is up (0.0011s latency).
+Nmap scan report for 192.168.1.237
+Host is up (0.00024s latency).
+Nmap scan report for 192.168.1.238
+Host is up (0.00012s latency).
+Nmap scan report for 192.168.1.239
+Host is up (0.00077s latency).
+Nmap scan report for 192.168.1.240
+Host is up (0.00063s latency).
+Nmap scan report for 192.168.1.241
+Host is up (0.00036s latency).
+Nmap scan report for 192.168.1.242
+Host is up (0.00039s latency).
+Nmap scan report for 192.168.1.243
+Host is up (0.00065s latency).
+Nmap scan report for 192.168.1.244
+Host is up (0.00053s latency).
+Nmap scan report for 192.168.1.245
+Host is up (0.00031s latency).
+Nmap scan report for 192.168.1.246
+Host is up (0.00013s latency).
+Nmap scan report for 192.168.1.247
+Host is up (0.00085s latency).
+Nmap scan report for 192.168.1.248
+Host is up (0.00084s latency).
+Nmap scan report for 192.168.1.249
+Host is up (0.00040s latency).
+Nmap scan report for 192.168.1.250
+Host is up (0.00019s latency).
+Nmap scan report for 192.168.1.251
+Host is up (0.00057s latency).
+Nmap scan report for 192.168.1.252
+Host is up (0.00041s latency).
+Nmap scan report for 192.168.1.253
+Host is up (0.00028s latency).
+Nmap scan report for 192.168.1.254
+Host is up (0.00032s latency).
+Nmap scan report for 192.168.1.255
+Host is up (0.00023s latency).
+Nmap done: 256 IP addresses (256 hosts up) scanned in 58.53 seconds
+                                                                                                         
+┌──(kali㉿kali)-[~]
+└─$ nmap 192.168.1.1
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-15 03:50 EDT
+Nmap scan report for 192.168.1.1
+Host is up (0.00063s latency).
+All 1000 scanned ports on 192.168.1.1 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.54 seconds
+                                                                                                         
+┌──(kali㉿kali)-[~]
+└─$ nmap -A -T4 -v scanme.nmap.org
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-15 03:51 EDT
+NSE: Loaded 157 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 03:51
+Completed NSE at 03:51, 0.00s elapsed
+Initiating NSE at 03:51
+Completed NSE at 03:51, 0.00s elapsed
+Initiating NSE at 03:51
+Completed NSE at 03:51, 0.00s elapsed
+Initiating Ping Scan at 03:51
+Scanning scanme.nmap.org (45.33.32.156) [4 ports]
+Completed Ping Scan at 03:51, 0.03s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 03:51
+Completed Parallel DNS resolution of 1 host. at 03:51, 0.83s elapsed
+Initiating SYN Stealth Scan at 03:51
+Scanning scanme.nmap.org (45.33.32.156) [1000 ports]
+Discovered open port 22/tcp on 45.33.32.156
+Discovered open port 80/tcp on 45.33.32.156
+Discovered open port 9929/tcp on 45.33.32.156
+Increasing send delay for 45.33.32.156 from 0 to 5 due to 11 out of 21 dropped probes since last increase.
+Discovered open port 31337/tcp on 45.33.32.156
+Discovered open port 31337/tcp on 45.33.32.156
+Completed SYN Stealth Scan at 03:51, 33.28s elapsed (1000 total ports)
+Initiating Service scan at 03:51
+Scanning 4 services on scanme.nmap.org (45.33.32.156)
+Completed Service scan at 03:51, 6.68s elapsed (4 services on 1 host)
+Initiating OS detection (try #1) against scanme.nmap.org (45.33.32.156)
+adjust_timeouts2: packet supposedly had rtt of -233205 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -233205 microseconds.  Ignoring time.
+Retrying OS detection (try #2) against scanme.nmap.org (45.33.32.156)
+adjust_timeouts2: packet supposedly had rtt of -105364 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -105364 microseconds.  Ignoring time.
+Initiating Traceroute at 03:51
+Completed Traceroute at 03:51, 0.03s elapsed
+Initiating Parallel DNS resolution of 1 host. at 03:51
+Completed Parallel DNS resolution of 1 host. at 03:51, 0.15s elapsed
+NSE: Script scanning 45.33.32.156.
+Initiating NSE at 03:51
+Completed NSE at 03:52, 11.76s elapsed
+Initiating NSE at 03:52
+Completed NSE at 03:52, 1.78s elapsed
+Initiating NSE at 03:52
+Completed NSE at 03:52, 0.00s elapsed
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.0031s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 979 filtered tcp ports (no-response)
+PORT      STATE  SERVICE        VERSION
+22/tcp    open   ssh            OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 ac:00:a0:1a:82:ff:cc:55:99:dc:67:2b:34:97:6b:75 (DSA)
+|   2048 20:3d:2d:44:62:2a:b0:5a:9d:b5:b3:05:14:c2:a6:b2 (RSA)
+|   256 96:02:bb:5e:57:54:1c:4e:45:2f:56:4c:4a:24:b2:57 (ECDSA)
+|_  256 33:fa:91:0f:e0:e1:7b:1f:6d:05:a2:b0:f1:54:41:56 (ED25519)
+80/tcp    open   http           Apache httpd 2.4.7 ((Ubuntu))
+|_http-title: Go ahead and ScanMe!
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+|_http-favicon: Nmap Project
+| http-methods: 
+|_  Supported Methods: OPTIONS GET HEAD POST
+993/tcp   closed imaps
+1084/tcp  closed ansoft-lm-2
+1123/tcp  closed murray
+1149/tcp  closed bvtsonar
+1234/tcp  closed hotline
+1311/tcp  closed rxmon
+1533/tcp  closed virtual-places
+1761/tcp  closed landesk-rc
+2035/tcp  closed imsldoc
+3301/tcp  closed tarantool
+3306/tcp  closed mysql
+5061/tcp  closed sip-tls
+5269/tcp  closed xmpp-server
+5900/tcp  closed vnc
+8080/tcp  closed http-proxy
+8873/tcp  closed dxspider
+9929/tcp  open   nping-echo     Nping echo
+31337/tcp open   tcpwrapped
+32770/tcp closed sometimes-rpc3
+Device type: bridge|VoIP adapter|general purpose
+Running (JUST GUESSING): Oracle Virtualbox (92%), Slirp (92%), AT&T embedded (88%), QEMU (87%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:danny_gasparovski:slirp cpe:/a:qemu:qemu
+Aggressive OS guesses: Oracle Virtualbox Slirp NAT bridge (92%), AT&T BGW210 voice gateway (88%), QEMU user mode network gateway (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=0 (Trivial joke)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.27 ms 10.0.2.2
+2   0.21 ms scanme.nmap.org (45.33.32.156)
+
+NSE: Script Post-scanning.
+Initiating NSE at 03:52
+Completed NSE at 03:52, 0.00s elapsed
+Initiating NSE at 03:52
+Completed NSE at 03:52, 0.00s elapsed
+Initiating NSE at 03:52
+Completed NSE at 03:52, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 62.30 seconds
+           Raw packets sent: 4121 (186.456KB) | Rcvd: 3274 (133.160KB)
+                                                                                                         
+┌──(kali㉿kali)-[~]
+└─$ nmap -O scanme.nmap.org
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-15 03:52 EDT
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.28s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 782 closed tcp ports (reset), 214 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+9929/tcp  open  nping-echo
+31337/tcp open  Elite
+Device type: bridge|VoIP adapter|general purpose
+Running (JUST GUESSING): Oracle Virtualbox (92%), Slirp (92%), AT&T embedded (89%), QEMU (87%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:danny_gasparovski:slirp cpe:/a:qemu:qemu
+Aggressive OS guesses: Oracle Virtualbox Slirp NAT bridge (92%), AT&T BGW210 voice gateway (89%), QEMU user mode network gateway (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 91.34 seconds
+                                                                                                         
+┌──(kali㉿kali)-[~]
+└─$ 
+                                                                                                         
+┌──(kali㉿kali)-[~]
+└─$ nmap -p 21,22,80,443 scanme.nmap.org
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-15 03:53 EDT
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.11s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+
+PORT    STATE    SERVICE
+21/tcp  filtered ftp
+22/tcp  open     ssh
+80/tcp  open     http
+443/tcp filtered https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.33 seconds
+                                                                                                         
+┌──(kali㉿kali)-[~]
+└─$ nmap -A scanme.nmap.org -oN footprint_result.txt
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-15 03:54 EDT
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.011s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 993 filtered tcp ports (no-response)
+PORT      STATE  SERVICE        VERSION
+22/tcp    open   ssh            OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 ac:00:a0:1a:82:ff:cc:55:99:dc:67:2b:34:97:6b:75 (DSA)
+|   2048 20:3d:2d:44:62:2a:b0:5a:9d:b5:b3:05:14:c2:a6:b2 (RSA)
+|   256 96:02:bb:5e:57:54:1c:4e:45:2f:56:4c:4a:24:b2:57 (ECDSA)
+|_  256 33:fa:91:0f:e0:e1:7b:1f:6d:05:a2:b0:f1:54:41:56 (ED25519)
+80/tcp    open   http           Apache httpd 2.4.7 ((Ubuntu))
+|_http-favicon: Nmap Project
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+|_http-title: Go ahead and ScanMe!
+163/tcp   closed cmip-man
+808/tcp   closed ccproxy-http
+8888/tcp  closed sun-answerbook
+9929/tcp  open   nping-echo     Nping echo
+31337/tcp open   tcpwrapped
+Device type: bridge|router|VoIP adapter
+Running (JUST GUESSING): Oracle Virtualbox (89%), Slirp (89%), Cisco IOS 12.X (86%), AT&T embedded (86%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:danny_gasparovski:slirp cpe:/h:cisco:5300_router cpe:/o:cisco:ios:12.1
+Aggressive OS guesses: Oracle Virtualbox Slirp NAT bridge (89%), Cisco 5300 router (IOS 12.1) (86%), AT&T BGW210 voice gateway (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.37 ms 10.0.2.2
+2   0.40 ms scanme.nmap.org (45.33.32.156)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 80.21 seconds
+                                                              
