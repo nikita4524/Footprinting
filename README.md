@@ -29,4 +29,12 @@ PORT        STATE   SERVICE       VERSION
 31337/tcp   open    tcpwrapped
 
 
+## Output
+![Image](https://github.com/user-attachments/assets/e2502ac0-8ac0-4bba-bf86-4a7a905ea7d9)
+![Image](https://github.com/user-attachments/assets/3853352e-8f2a-49ec-a23e-3f6561e7168d)
+![Image](https://github.com/user-attachments/assets/12e4ff0c-b1d8-4451-9e7b-15caf225a791)
+![Image](https://github.com/user-attachments/assets/75ebea78-0f9e-45d2-95ce-541a6c66d5d0)
+![Image](https://github.com/user-attachments/assets/0ba22bb2-810c-4a74-921f-d6a2236e716c)
+
+
 
